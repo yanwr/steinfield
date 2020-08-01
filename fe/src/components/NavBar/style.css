@@ -1,0 +1,12 @@
+.navbar-container-btn {
+    margin-right: 75px;
+}
+
+.navbar-container-btn a {
+    margin: 0 10px;
+    color: #a39286;
+}
+
+.navbar-container {
+    background-color: #f4efeb;
+}

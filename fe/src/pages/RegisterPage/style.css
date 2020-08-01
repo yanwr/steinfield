@@ -1,0 +1,80 @@
+.login-container {
+    height: 100vh;
+    padding: 60px 30px;
+    border: none;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.185)
+      ),url(https://64.media.tumblr.com/023565fbd9c18b9cdef39825d6c5d973/8dcff200d66f1b68-4c/s2048x3072/f3825e5c1dd3b2099f299f97707ae0687f8d7d7b.png);
+    background-repeat: round;
+}
+ 
+.row {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+ 
+.text-container {
+    color:white;
+    margin: 0 auto;
+}
+ 
+.text-container h3 {
+    font: 700 60pt Roboto, sans-serif;
+}
+ 
+.text-container p {
+    padding-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+}
+ 
+.form-container {
+    background-color: #f4efeb;
+    border: 1px solid #f4efeb;
+    border-radius: 10px;
+    color: #a39286;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+ 
+.form-container form h1 {
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+ 
+.btn-login {
+    background-color:#a39286;
+    border-radius:28px;
+    outline: hidden;
+    text-indent:0;
+    border:1px solid #ad9a8e;
+    display:inline-block;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:50px;
+    width: 160px;
+    line-height:50px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #a39286;
+    margin-right: 21%;
+}
+ 
+.btn-login:hover {
+    background-color:#a39286;
+}
+ 
+.btn-login:active {
+    position:relative;
+    top:1px;
+}
+ 
+.btn-login:focus {
+    outline: 0px;
+}

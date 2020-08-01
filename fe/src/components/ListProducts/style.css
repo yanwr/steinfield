@@ -1,0 +1,68 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.list-group{
+    margin-top: 100px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 20rem));
+    grid-gap: 2rem;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.Card {
+    padding: 10px;
+    width: 15rem;
+    max-height: 25rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow: #d3d3d3 0px 0px 5px 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Card .imgProduto img{
+    height: 160px;
+    transition: .3s;
+}
+
+.Card .imgProduto :hover{
+    opacity: 80%;
+    transition: .3s;
+}
+
+.Card .Title{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.Card .Subtitle{
+    font-size: 10pt;
+}
+
+.Card .Price{
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Card .line{
+    display: flex;
+    height: 2px;
+    width: 100%;
+    background-color: #d3d3d3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Card .btnsCard{
+    display: flex;
+    justify-content: space-around;
+}
