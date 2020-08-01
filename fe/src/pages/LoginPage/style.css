@@ -1,0 +1,87 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px 30px;
+    flex-direction: row; 
+    align-items: flex-start;
+    border: none;
+}
+
+aside {
+    border: none;
+    padding: 30px 20px;
+    max-width: 1000px;
+    color:white;
+}
+
+aside h3 {
+    font: 700 40pt Roboto, sans-serif;
+    font-size: 65px;
+}
+
+aside p {
+    padding-top: 20px;
+    font-family: Roboto,sans-serif;
+    font-size: 26px;
+}
+
+main {
+    background-color: #f4efeb;
+    margin-left: 70px;
+    width: 600px;
+    border: 1px solid #f4efeb;
+    border-radius: 10px;
+    color: #a39286;
+}
+
+main form {
+    padding: 20px 10px;
+}
+
+main form h1 {
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.btn-login {
+	background-color:#a39286;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+    text-indent:0;
+	border:1px solid #ad9a8e;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+    height:50px;
+	line-height:50px;
+    width:140px;
+	text-decoration:none;
+	text-align:center;
+    text-shadow:1px 1px 0px #a39286;
+    margin-left: 110px;
+}
+
+.btn-login:hover {
+	background-color:#a39286;
+}
+
+.btn-login:active {
+	position:relative;
+	top:1px;
+}
