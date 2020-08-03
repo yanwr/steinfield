@@ -3,6 +3,7 @@ package com.my.steinfield.Steinfield.config;
 import com.my.steinfield.Steinfield.security.JWTAuthenticationFilter;
 import com.my.steinfield.Steinfield.security.JWTAuthorizationFilter;
 import com.my.steinfield.Steinfield.security.JWTBuilder;
+import br.com.softplan.services.UserDetailServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,7 +29,7 @@ import java.util.Arrays;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UserDetailsService userDetailsService;
+    private UserDetailServiceImpl userDetailsService;
 
     @Autowired
     private Environment env;
